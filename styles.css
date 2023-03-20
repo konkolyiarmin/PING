@@ -1,0 +1,15 @@
+body {
+    background-image: 
+    url("oldwallpaper.webp");
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
