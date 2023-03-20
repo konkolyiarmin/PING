@@ -6,10 +6,17 @@ body {
 p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: white;
 }
 
 .veszely {
     font-size: 50px;
     background-color: black;
     color: red;
+}
+
+h1 {
+    text-align: center;
+    color: white;
 }
