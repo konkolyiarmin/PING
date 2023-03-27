@@ -18,10 +18,12 @@ img {
   width: 20%;
 }
 h2 {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  background-color: rgb(63, 16, 107);
-  color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
 }
 h3 {
   text-align: center;
@@ -57,4 +59,5 @@ h3 {
  background-color: rgb(33, 246, 62);
  color: black;
  font-size: 25px;
+ padding: 25px;
 }
