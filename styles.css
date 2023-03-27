@@ -48,3 +48,13 @@ h3 {
   h5{
     text-align: center;
   }
+  img{
+    text-align: center;
+  }
+  .comment{
+ text-align: center;
+ border-radius: 100px;
+ background-color: rgb(33, 246, 62);
+ color: black;
+ font-size: 25px;
+}
