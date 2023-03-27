@@ -40,3 +40,8 @@ h3 {
   margin: 10%;
   border: 1px solid rgb(195, 0, 255);
 }
+.veszely {
+    font-size: 100px;
+    background-color: black;
+    color: red;
+  }
