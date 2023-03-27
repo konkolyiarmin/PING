@@ -1,31 +1,47 @@
 body {
-    background-image: 
-    url("oldwallpaper.webp");
+  background-image: url("oldwallpaper.webp");
 }
 
 p {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(63, 16, 107);
+  color: white;
+  margin: 10%;
+  border: 1px solid rgb(195, 0, 255);
 }
 h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
-img{
-    width: 20%;
+img {
+  width: 20%;
 }
-h2{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(63, 16, 107);
+  color: white;
 }
-.max{
-    text-decoration: dotted;
-    width: 100% ;
-    text-align: center;
+.max {
+  text-decoration: dotted;
+  width: 100%;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(63, 16, 107);
+  color: white;
+  margin: 10%;
+  border: 1px solid rgb(195, 0, 255);
+}
+
+.liszt {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(63, 16, 107);
+  color: white;
+  margin: 10%;
+  border: 1px solid rgb(195, 0, 255);
 }
