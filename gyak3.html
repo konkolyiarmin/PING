@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<script>
+		var audio; // Declare the audio variable outside of the function
+		
+		function playMusic() {
+			audio = new Audio('relax2.mp3');
+			audio.loop = true; // Set the loop property to true to continuously play the music
+			audio.play();
+		}
+		
+		function stopMusic() {
+			audio.pause();
+			audio.currentTime = 0; // Set the current time to 0 to reset the audio track
+		}
+		
+		function toggleMusic() {
+			if (audio.paused) {
+				audio.play();
+			} else {
+				audio.pause();
+				audio.currentTime = 0; // Set the current time to 0 to reset the audio track
+			}
+		}
+	</script>
+	<style>
+		img {
+			width: 200px;
+			height: 200px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to my website</h1>
+	<p>This is my website. Click the image below to start or stop the background music!</p>
+	
+	<img src="alarmalarm.webp" onclick="toggleMusic()">
+</body>
+</html>

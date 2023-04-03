@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<script>
+		function playMusic() {
+			var audio = new Audio('relax2.mp3');
+			document.addEventListener('click', function() {
+				audio.play();
+			});
+		}
+	</script>
+</head>
+<body onload="playMusic()">
+	<h1>Welcome to my website</h1>
+	<p>This is my website. Click anywhere to start the background music!</p>
+</body>
+</html>

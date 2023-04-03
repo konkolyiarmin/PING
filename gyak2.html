@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<script>
+		var audio; // Declare the audio variable outside of the function
+		
+		function playMusic() {
+			audio = new Audio('relax.mp3');
+			audio.loop = true; // Set the loop property to true to continuously play the music
+			
+			// Add an event listener to the document that triggers the audio playback
+			document.addEventListener('click', function() {
+				audio.play();
+			}, { once: true });
+		}
+		
+		function stopMusic() {
+			audio.pause();
+			audio.currentTime = 0; // Set the current time to 0 to reset the audio track
+		}
+	</script>
+</head>
+<body onload="playMusic()">
+	<h1>Welcome to my website</h1>
+	<p>This is my website. Click the button below to start or stop the background music!</p>
+	
+	<button onclick="audio.paused ? audio.play() : audio.pause();">
+		Toggle Music
+	</button>
+</body>
+</html>
