@@ -1,5 +1,5 @@
 const INITIAL_VELOCITY = 0.025
-const VELOCITY_INCREASE = 0.00001
+const VELOCITY_INCREASE = 0.000001
 
 export default class Ball {
   constructor(ballElem) {
@@ -53,6 +53,7 @@ export default class Ball {
 
     if (paddleRects.some(r => isCollision(r, rect))) {
       this.direction.x *= -1
+      
     }
   }
 }
@@ -66,6 +67,8 @@ function isCollision(rect1, rect2) {
     rect1.left <= rect2.right &&
     rect1.right >= rect2.left &&
     rect1.top <= rect2.bottom &&
-    rect1.bottom >= rect2.top
+    rect1.bottom >= rect2.top     
   )
+
 }
+
