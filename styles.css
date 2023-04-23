@@ -64,6 +64,16 @@ body {
   opacity: .5;
 }
 
+.startBtn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--foreground-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+} /*törölni
+
+
+
 /*
 .score > :first-child {
   text-align: right;
