@@ -70,13 +70,12 @@ body {
   background-color: var(--foreground-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-} /*törölni
+} /*törölni */
 
 
 
-/*
+
 .score > :first-child {
   text-align: right;
   border-right: .5vh solid var(--foreground-color);
 }
-*/ 
