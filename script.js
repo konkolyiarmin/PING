@@ -42,10 +42,10 @@ function handleLose() {
   computerPaddle.reset()
 }
 
-function startGame() {
-  playerScoreElem.textContent = 0
-  computerScoreElem.textContent = 0
-} //törölni
+//   function startGame() {
+//   playerScoreElem.textContent = 0
+//   computerScoreElem.textContent = 0
+//   } //törölni
 
 document.addEventListener("mousemove", e => {
   playerPaddle.position = (e.y / window.innerHeight) * 100

@@ -64,7 +64,7 @@ body {
   opacity: .5;
 }
 
-.startBtn {
+/*.startBtn {
   margin-left: 50%;
   transform: translateX(-50%);
   background-color: var(--foreground-color);
